@@ -1,0 +1,10 @@
+import pandas
+ds=pandas.read_csv("Salary_Data.csv")
+X = ds["YearsExperience"].values.reshape(30,1)
+Y = ds["Salary"]
+from sklearn.linear_model import LinearRegression
+mind = LinearRegression()
+mind.fit(X ,Y )
+mind.predict([[2.5]])
+import joblib
+joblib.dump( mind ,"SalaryModel.pk1")
