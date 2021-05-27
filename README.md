@@ -27,4 +27,5 @@ predict-salary.py : This file loads the machine learning and predicts the output
 ```
  
 ***
- ### You can either run SalaryMl.py or predict-salary.py to predict the output . The first uses python code and the other loads the model for the same.
+ ### SalaryMl file predicts the salary. In addition it creates a model, which when loaded in predict-salary.py can also be used to predict the output.
+ ### Choose any of the method to predict the output.
