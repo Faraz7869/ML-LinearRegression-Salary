@@ -12,6 +12,7 @@ Y = ds["Salary"]
 mind = LinearRegression()
 mind.fit(X ,Y )
 
+# Predicts the output using this file
 print("***************************WELCOME***********************")
 print(" ")
 print(" ")
@@ -23,4 +24,5 @@ print("|||||||||||||YOUR ESTIMATED SALARY ||||||||||||||")
 print(ans)
 print(" ")
 
+# OR Load the model and predict using other file
 joblib.dump( mind ,"SalaryModel.pkl")
