@@ -3,7 +3,7 @@
  
  ***
  
- This repository contains :
+ ## This repository contains :
  ```
  Salary-Data.csv : This is the dataset containing salary and the experience.
  
@@ -26,3 +26,5 @@ predict-salary.py : This file loads the machine learning and predicts the output
 
 ```
  
+***
+ ### You can either run SalaryMl.py or predict-salary.py. The first uses python code the other loads the model for the same.
